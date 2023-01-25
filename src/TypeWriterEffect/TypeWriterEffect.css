@@ -1,0 +1,45 @@
+.Typewriter__wrapper {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    color: #ffffff;
+    word-break: break-word;
+    white-space: normal;
+    line-height: 45px;
+}
+
+.Typewriter {
+    margin: 20px auto 10px auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 1400px) {
+    .Typewriter__wrapper {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .Typewriter__wrapper {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Typewriter__wrapper {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .Typewriter__wrapper {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .Typewriter__wrapper {
+        font-size: 18px;
+    }
+}

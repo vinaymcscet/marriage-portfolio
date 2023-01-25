@@ -1,0 +1,61 @@
+.gallery_wrapper {
+    width: 100%;
+    background: url('../../../public/images/content/family_bg.jpg') !important;
+    height: 100%;
+    z-index: 0;
+}
+
+.gallery_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap row;
+    width: 90%;
+    margin: auto;
+}
+
+.galleryItem {
+    position: relative;
+    max-width: 250px;
+    width: 200px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.react_lightgallery_item span {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    color: rgb(240, 118, 119);
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    z-index: 999;
+    transform: scale(0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 100%;
+    margin: -27px auto 0px;
+    transition: all 0.5s ease 0s;
+}
+
+.react_lightgallery_item img {
+    transition: all 0.5s ease 0s;
+}
+
+.react_lightgallery_item:hover span {
+    transform: scale(1, 1);
+}
+
+.react_lightgallery_item:hover img {
+    filter: blur(8px);
+}
+
+@media only screen and (max-width: 1200px) {
+    .gallery_wrapper {
+        width: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+.modal-content {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-header .btn-close {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.wd_gallery_slide:after {
+    display: none;
+}
+
+.modal_slide img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-height: 500px !important;
+    min-width: 500px !important;
+}

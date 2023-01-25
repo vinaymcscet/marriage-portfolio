@@ -1,0 +1,13 @@
+.testimonial_contact_wrapper {
+    width: 100%;
+    background-color: #fff;
+}
+
+.testimonial_contact_wrapper p,
+.testimonial_contact_wrapper h4 {
+    color: #000 !important;
+}
+
+.testimonial_contact_wrapper {
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+footer {
+    width: 100%;
+    background-color: #0c0c0c;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer_section {
+    width: 100%;
+}
+
+.footer_section img {
+    width: auto;
+}
+
+.footer_section p {
+    float: right;
+    width: auto;
+    padding-top: 20px;
+    margin: 0px;
+    color: #cccccc;
+}
+
+@media screen and (max-width: 1400px) {
+    .footer_section img {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer_section img {
+        max-width: 200px;
+    }
+}

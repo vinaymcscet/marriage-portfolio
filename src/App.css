@@ -1,0 +1,85 @@
+/*--------- Body Strat -------*/
+
+body,
+html {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: #797979;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Great Vibes', cursive;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #222222;
+}
+
+input,
+select,
+button {
+    outline: none;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+a {
+    color: #797979;
+    text-decoration: none;
+}
+
+.bottompadder70 {
+    padding-bottom: 70px;
+}
+
+.toppadder70 {
+    padding-top: 70px;
+}
+
+.toppadder90 {
+    padding-top: 90px;
+}
+
+.toppadder20 {
+    padding-top: 20px;
+}
+
+.bottompadder90 {
+    padding-bottom: 90px;
+}
+
+.toppadder50 {
+    padding-top: 50px;
+}
+
+.bottompadder50 {
+    padding-bottom: 50px;
+}
+
+.marginTop50 {
+    margin-top: 50px;
+}
